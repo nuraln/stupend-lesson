@@ -1,0 +1,23 @@
+	Statistik Deskriptif
+	--------------------
+
+=> Central tendency : pusat masa dari data
+ada beberapa macam 
+1. Mean (rata-rata)
+   Kalo ada nan, maka meannya itu akan kosong, oleh karenanya pake series karne si series ini bisa mengeksclude nan.
+   pd.Series(variabel)
+
+2. Mediaan (nilai tengah)
+3. Modus (frekuensi terbanyak)
+
+
+
+=> Spread/dispersion : (seberapa lebar) persebaran data
+Cara paling gampang adalah mencari jarak dari titik minimum dan maksimum
+1. Range 
+   range = max(x) - min(x)
+
+2. Quantile 
+   quantile => Q1, Q2, Q3
+   IQR = Q3 - Q1
+
